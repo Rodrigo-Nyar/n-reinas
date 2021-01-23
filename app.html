@@ -1,0 +1,34 @@
+<!-- 
+Verano 2020, INF 351 - Problema De Las Reinas
+Desarrollado por Rodrigo Javier Castillo Guzman
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>N Reinas</title>
+</head>
+<body>
+	<h2>
+		Verano 2020, INF 351 - Rodrigo Javier Castillo Guzmán
+		<br>
+		Problema de las N Reinas		
+		<hr>
+	</h2>
+	<form>
+		<label><b>Dimension (N): </b></label>
+		<input type="text" id="dimension" value="8">
+		<input type="submit" id="iniciarBtn" value="Iniciar" onclick="iniciar()">
+		<label for="libre">Libre</label>
+		<input type="checkbox" id="libre" name="libre" value="libre" onclick="checkboxClick()">
+		<input type="submit" id="solve" value="Resolver" onclick="solveClick()">
+	</form>
+	<br>
+	<table class="chess-board" id="chessBoard"></table>
+
+</body>
+<script src="app.js" type="text/javascript">
+	
+
+</script>
+</html>
